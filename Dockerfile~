@@ -1,0 +1,4 @@
+FROM debian:stable-slim
+COPY basic_server /bin/basic_server
+
+CMD ["/bin/basic_server"]
